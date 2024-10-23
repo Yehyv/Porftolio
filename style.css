@@ -1229,6 +1229,13 @@ li {
         cursor: pointer;
         transition: all 0.3s ease;
     }
+    section .home-content{
+        width: 100%;
+        /* margin: 0px auto; */
+        font-family: 'Poppins', sans-serif;
+        padding-left: 100px;
+        margin-bottom: auto;
+    }
     .typing-text span{
         position:relative;
     }
@@ -1282,6 +1289,13 @@ li {
         top: -38px ;
         left: -10px;
 
+    }
+    section .home-content{
+        width: 100%;
+        /* margin: 0px auto; */
+        font-family: 'Poppins', sans-serif;
+        padding-left: 100px;
+        margin-bottom: auto;
     }
 
     .typing-text span{
@@ -1465,7 +1479,7 @@ li {
         content: " ";
         background-color: black;
         position: absolute;
-        width: calc(100% + 8px);
+        width: calc(30% + 8px);
         height: 50%;
         border-left: 1px solid black;
         right: -8;
